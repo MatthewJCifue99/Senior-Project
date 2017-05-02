@@ -1,13 +1,17 @@
 var exports = module.exports = {};
 
 function PasswordMessage(m){
+  let this.name="Password Message";
+   let this.message=m;
+ 
+ }
 
-}
-
-function inRange(char,min,max){
-    let unicode = char.charCodeAt(0);
-    
-}
+ function inRange(char,min,max){
+     let unicode = char.charCodeAt(0);
+     let char=
+     let min=
+     let max=
+ }
 
 exports.checkLength = function(str){
     let valid = (str.length >= 8 && str.length <= 20);
