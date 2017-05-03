@@ -3,7 +3,7 @@ var exports = module.exports = {};
 function PasswordMessage(m){
   let this.name="Password Message";
    let this.message=m;
- 
+
  }
 
  function inRange(char,min,max){
